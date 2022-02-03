@@ -1,22 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Create Enumerable
+# TDD-project
 
-> This project uses Ruby to create a school library.
+> This project uses Ruby to initiate a test driven development project.
 
 
 ## Built With
 
 - Ruby
 - Git
+- Rspec
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- copy this link `https://github.com/adamteddychang/school_library.git`.
+- copy this link `https://github.com/adamteddychang/tdd_project.git`.
 - get the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write `git clone https://github.com/adamteddychang/school_library.git`.
+- write `git clone https://github.com/adamteddychang/tdd_project.git`.
 - go to the repository folder in your command prompt.
 - run `bundle install`.
 
@@ -26,6 +27,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 -Ruby
+- rspec
 
 ## Authors
 
