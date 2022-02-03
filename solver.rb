@@ -1,27 +1,28 @@
 class Solver
   def factorial(num)
     raise 'Number is negative' if num.negative?
+
     val = 1
-    while num > 0
+    while num.positive?
       val *= num
-      num -= 1 
+      num -= 1
     end
-    return val
-end
+    val
+  end
+
   def reverse(str)
- return    str.chars.reverse.join
-
+    str.chars.reverse.join
   end
+
   def fizzbuzz(num)
-    if num % 3 == 0 && num % 5 ==0
-    return  'fizzbuzz'
-    elsif num % 3 == 0
-    return   'fizz'
-    elsif num % 5 == 0
-       return 'buzz'
+    if (num % 3).zero? && (num % 5).zero?
+      'fizzbuzz'
+    elsif (num % 3).zero?
+      'fizz'
+    elsif (num % 5).zero?
+      'buzz'
     else
-     return  num
+      num
     end
   end
 end
-
