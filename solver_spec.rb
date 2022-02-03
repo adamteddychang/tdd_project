@@ -10,6 +10,7 @@ describe Solver do
     it 'get factorial of number' do
       expect(solver.factorial(5)).to eq 120
       expect(solver.factorial(1)).to eq 1
+      expect(solver.factorial(0)).to eq 1
       expect { solver.factorial(-1) }.to raise_error('Number is negative')
     end
     it 'get a reversed string' do
